@@ -9,6 +9,6 @@ describe('testcliwebpack App', function() {
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Clearbox');
+    expect(page.getParagraphText()).toEqual('ClearBox');
   });
 });

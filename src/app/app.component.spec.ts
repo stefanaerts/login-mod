@@ -28,6 +28,6 @@ describe('App: Testcliwebpack', () => {
     let fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     let compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Clearbox');
+    expect(compiled.querySelector('h1').textContent).toContain('ClearBox');
   }));
 });
